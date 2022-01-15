@@ -1,0 +1,29 @@
+.iframe-wrapper {
+  position: relative;
+  height: 100%;
+  flex-grow: 1; 
+}
+
+.iframe-wrapper iframe {
+  height: 100%;
+  background-color: white;
+}
+
+.preview-error {
+  position: absolute; 
+  top: 10px;
+  left: 10px; 
+  color: red;  
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* ensures white background matches size of iframe wrapper */
+.react-draggable-transparent-selection .iframe-wrapper:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+}
