@@ -3,3 +3,4 @@ dist
 node_modules
 ./cmds.txt
 ./notebook.js
+notebook.js
