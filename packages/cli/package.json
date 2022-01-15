@@ -1,6 +1,6 @@
 {
   "name": "morphe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "bin": "dist/index.js",
   "publishConfig": {
@@ -17,10 +17,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@morphe/local-client": "^1.0.0"
+    "@morphe/local-client": "^1.0.1"
   },
   "devDependencies": {
-    "@morphe/local-api": "^1.0.0",
+    "@morphe/local-api": "^1.0.1",
     "@types/node": "^17.0.8",
     "commander": "^8.3.0",
     "esbuild": "0.8.26",
